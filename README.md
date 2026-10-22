@@ -1,16 +1,25 @@
-## Hi there 👋
+# Hi, I'm Ayham
 
-<!--
-**Superman247/Superman247** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+IT support and network engineering student at Al-Balqa Applied University (BEng, expected March 2027), based in Irbid, Jordan. Moving to Manchester, UK in June 2027. Open to junior and internship roles in IT support, systems administration, cloud and networking, remote or on-site.
 
-Here are some ideas to get you started:
+## What I work with
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Systems:** Linux (Red Hat training), Windows Server, Active Directory, Group Policy, PowerShell, Bash
+- **Networking:** Cisco IOS labs with VLANs, inter-VLAN routing, OSPF, DHCP, DNS, NAT, ACLs and 802.1X
+- **Cloud and tools:** AWS fundamentals, Azure virtual machines and resource groups, Docker, Git
+- **Code:** Python (FastAPI, SQLAlchemy), SQL, JavaScript, C++
+
+## Projects
+
+- **AI System Administration Assistant** (graduation project): a Windows Server admin assistant where an AI proposes an action, fixed policy rules check it, and risky actions wait for a second administrator to approve. Every action goes into a hash-chained audit log. Built with FastAPI, PostgreSQL in Docker and an Arabic/English dashboard. It runs as a simulator; changes to real Active Directory are disabled until it is validated in an isolated lab. Source is private for now.
+- **[Nixas Link](https://nixas.link):** my small IT, networking and web company in Jordan.
+- [cpp-practice](https://github.com/Superman247/cpp-practice): C++ course exercises.
+- [My-Web-Projects](https://github.com/Superman247/My-Web-Projects): early web development practice.
+
+## Training
+
+Red Hat RH124, RH134, RH104 and AD141 (course attendance), AWS Cloud Practitioner Essentials course. Planned: CCNA, Microsoft Azure and AWS certification exams.
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/ayham-bawaneh-865a71261/) | [nixas.link](https://nixas.link)
