@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="Animated network diagram: client, switch, router, server">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b132b"/>
+      <stop offset="1" stop-color="#1c2541"/>
+    </linearGradient>
+    <clipPath id="c2"><rect width="1000" height="260" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#c2)" font-family="Consolas, Menlo, monospace" font-size="14" fill="#e0e6f0" text-anchor="middle">
+    <rect width="1000" height="260" fill="url(#bg2)"/>
+    <text x="500" y="34" font-size="16" fill="#9bf6c4">$ ping -c 4 core-router   # a tiny lab, animated</text>
+    <g stroke="#5bc0eb" stroke-width="2" stroke-opacity="0.6" fill="none">
+      <path d="M130 140 H340"/><path d="M340 140 H550"/><path d="M550 140 H760"/><path d="M550 140 L760 215"/><path d="M340 140 L130 215"/>
+    </g>
+    <g stroke="#5bc0eb" stroke-width="2" fill="#13213f">
+      <rect x="85" y="110" width="90" height="60" rx="8"/>
+      <rect x="295" y="110" width="90" height="60" rx="8"/>
+      <rect x="505" y="110" width="90" height="60" rx="8"/>
+      <rect x="715" y="110" width="90" height="60" rx="8"/>
+      <rect x="85" y="195" width="90" height="46" rx="8"/>
+      <rect x="715" y="195" width="90" height="46" rx="8"/>
+    </g>
+    <text x="130" y="146">PC</text><text x="340" y="146">Switch</text><text x="550" y="146">Router</text><text x="760" y="146">Server</text>
+    <text x="130" y="224" font-size="12">VLAN 10</text><text x="760" y="224" font-size="12">AD / DNS</text>
+    <g>
+      <circle r="6" fill="#9bf6c4"><animateMotion dur="3s" repeatCount="indefinite" path="M130 140 H340 H550 H760"/></circle>
+      <circle r="6" fill="#ffd166"><animateMotion dur="3s" begin="1.5s" repeatCount="indefinite" path="M760 140 H550 H340 H130"/></circle>
+      <circle r="5" fill="#ef476f"><animateMotion dur="4s" begin="0.5s" repeatCount="indefinite" path="M130 215 L340 140 H550 L760 215"/></circle>
+    </g>
+    <text x="500" y="252" font-size="12" fill="#8d99ae">OSPF, VLANs, DHCP, DNS, NAT, ACLs, 802.1X: built in Cisco IOS labs</text>
+  </g>
+</svg>
